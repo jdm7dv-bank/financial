@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6204BA67-B681-466B-8B98-E82F07372246}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestLattice101</RootNamespace>
+    <AssemblyName>TestLattice101</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\CsForFinancialMarkets\BookExamples\Ch9\LatticeMethodsSourceCode\OneFactorBinomial\TestLattice101.cs">
+      <Link>TestLattice101.cs</Link>  
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\Array.cs">
+      <Link>src\ClassLibraryArrays\Array.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\AssocArray.cs">
+      <Link>src\ClassLibraryArrays\AssocArray.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\AssocArrayMechanisms.cs">
+      <Link>src\ClassLibraryArrays\AssocArrayMechanisms.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\AssocMatrix.cs">
+      <Link>src\ClassLibraryArrays\AssocMatrix.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\GenericMatrix.cs">
+      <Link>src\ClassLibraryArrays\GenericMatrix.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\GenericMatrixImpl.cs">
+      <Link>src\ClassLibraryArrays\GenericMatrixImpl.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\GenericOperatorFactory.cs">
+      <Link>src\ClassLibraryArrays\GenericOperatorFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\Interfaces.cs">
+      <Link>src\ClassLibraryArrays\Interfaces.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\Lattice.cs">
+      <Link>src\ClassLibraryArrays\Lattice.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\LUSolver.cs">
+      <Link>src\ClassLibraryArrays\LUSolver.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\Matrix.cs">
+      <Link>src\ClassLibraryArrays\Matrix.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\Mesher.cs">
+      <Link>src\ClassLibraryArrays\Mesher.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\NumericMatrix.cs">
+      <Link>src\ClassLibraryArrays\NumericMatrix.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\Range.cs">
+      <Link>src\ClassLibraryArrays\Range.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\Set.cs">
+      <Link>src\ClassLibraryArrays\Set.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\Tensor.cs">
+      <Link>src\ClassLibraryArrays\Tensor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\Vector.cs">
+      <Link>src\ClassLibraryArrays\Vector.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

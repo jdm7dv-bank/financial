@@ -1,0 +1,5 @@
+C:\books\csharpproduction\Chapter2\Chapter2Project\Chapter2Project\bin\Release\Chapter2Project.exe
+C:\books\csharpproduction\Chapter2\Chapter2Project\Chapter2Project\bin\Release\Chapter2Project.pdb
+C:\books\csharpproduction\Chapter2\Chapter2Project\Chapter2Project\obj\x86\Release\ResolveAssemblyReference.cache
+C:\books\csharpproduction\Chapter2\Chapter2Project\Chapter2Project\obj\x86\Release\Chapter2Project.exe
+C:\books\csharpproduction\Chapter2\Chapter2Project\Chapter2Project\obj\x86\Release\Chapter2Project.pdb

@@ -1,0 +1,5 @@
+C:\books\csharpproduction\Chapter4\ProvideRequireSection4.9.1Project\ProvideRequireSection4.9.1Project\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\books\csharpproduction\Chapter4\ProvideRequireSection4.9.1Project\ProvideRequireSection4.9.1Project\bin\Debug\ProvideRequireSection4.9.1Project.exe
+C:\books\csharpproduction\Chapter4\ProvideRequireSection4.9.1Project\ProvideRequireSection4.9.1Project\bin\Debug\ProvideRequireSection4.9.1Project.pdb
+C:\books\csharpproduction\Chapter4\ProvideRequireSection4.9.1Project\ProvideRequireSection4.9.1Project\obj\x86\Debug\ProvideRequireSection4.9.1Project.exe
+C:\books\csharpproduction\Chapter4\ProvideRequireSection4.9.1Project\ProvideRequireSection4.9.1Project\obj\x86\Debug\ProvideRequireSection4.9.1Project.pdb

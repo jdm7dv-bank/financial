@@ -1,0 +1,7 @@
+C:\books\csharpproduction\Chapter18\Chapter18Project\Chapter18Project\bin\Debug\Chapter18Project.exe
+C:\books\csharpproduction\Chapter18\Chapter18Project\Chapter18Project\bin\Debug\Chapter18Project.pdb
+C:\books\csharpproduction\Chapter18\Chapter18Project\Chapter18Project\bin\Debug\ClassLibraryArrays.dll
+C:\books\csharpproduction\Chapter18\Chapter18Project\Chapter18Project\bin\Debug\ClassLibraryArrays.pdb
+C:\books\csharpproduction\Chapter18\Chapter18Project\Chapter18Project\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\books\csharpproduction\Chapter18\Chapter18Project\Chapter18Project\obj\x86\Debug\Chapter18Project.exe
+C:\books\csharpproduction\Chapter18\Chapter18Project\Chapter18Project\obj\x86\Debug\Chapter18Project.pdb

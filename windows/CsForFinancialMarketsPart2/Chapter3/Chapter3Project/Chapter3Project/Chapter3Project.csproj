@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9CFBDA07-6F1C-4D69-9CD3-FB4179DAA1BB}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Chapter3Project</RootNamespace>
+    <AssemblyName>Chapter3Project</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClassLibraryArrays">
+      <HintPath>..\..\..\Chapter10\ClassLibraryArrays\ClassLibraryArrays\bin\Debug\ClassLibraryArrays.dll</HintPath>
+    </Reference>
+    <Reference Include="ClassLibraryExcel">
+      <HintPath>..\..\..\Chapter10\ClassLibraryExcel\ClassLibraryExcel\bin\Debug\ClassLibraryExcel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EuropeanOptionFactory.cs" />
+    <Compile Include="..\..\Option.cs">
+      <Link>Option.cs</Link>
+    </Compile>
+    <None Include="..\..\TestPoint_static.cs">
+      <Link>TestPoint_static.cs</Link>
+    </None>
+    <None Include="..\..\TestPoint_null.cs">
+      <Link>TestPoint_null.cs</Link>
+    </None>
+    <None Include="..\..\TestPoint_new.cs">
+      <Link>TestPoint_new.cs</Link>
+    </None>
+    <Compile Include="Instrument.cs" />
+    <Compile Include="MultiAssetOptionPayoffExtensions.cs" />
+    <Compile Include="MultiAssetPayoffStrategy.cs" />
+    <Compile Include="OptionExtensions.cs" />
+    <Compile Include="OptionPresentation.cs" />
+    <Compile Include="Point.cs" />
+    <None Include="Point001.cs" />
+    <None Include="PointII.cs" />
+    <None Include="PointIII.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Sealed.cs" />
+    <None Include="Shape.cs" />
+    <Compile Include="SpecialFunctions.cs" />
+    <None Include="TestEnum.cs" />
+    <Compile Include="TestOptionPresentation.cs" />
+    <None Include="TestPoint.cs" />
+    <None Include="TestPoint001.cs" />
+    <None Include="TestPointII.cs" />
+    <None Include="TestTwoBasketOption.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="OptionPriceAndGreeks.xlsx" />
+    <None Include="README CHAPTER 3.docx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,7 @@
+C:\books\csharpproduction\Chapter10\ClassLibraryFDM\ClassLibraryFDM\obj\Debug\ResolveAssemblyReference.cache
+C:\books\csharpproduction\Chapter10\ClassLibraryFDM\ClassLibraryFDM\bin\Debug\ClassLibraryFDM.dll
+C:\books\csharpproduction\Chapter10\ClassLibraryFDM\ClassLibraryFDM\bin\Debug\ClassLibraryFDM.pdb
+C:\books\csharpproduction\Chapter10\ClassLibraryFDM\ClassLibraryFDM\bin\Debug\ClassLibraryArrays.dll
+C:\books\csharpproduction\Chapter10\ClassLibraryFDM\ClassLibraryFDM\bin\Debug\ClassLibraryArrays.pdb
+C:\books\csharpproduction\Chapter10\ClassLibraryFDM\ClassLibraryFDM\obj\Debug\ClassLibraryFDM.dll
+C:\books\csharpproduction\Chapter10\ClassLibraryFDM\ClassLibraryFDM\obj\Debug\ClassLibraryFDM.pdb

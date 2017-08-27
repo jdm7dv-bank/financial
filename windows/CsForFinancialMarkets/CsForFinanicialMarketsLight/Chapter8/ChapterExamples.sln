@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBinaryReaderWriter", "TestBinaryReaderWriter\TestBinaryReaderWriter.csproj", "{62736680-1988-4015-88CC-11837E80CE33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCryptoStream", "TestCryptoStream\TestCryptoStream.csproj", "{BCE0C8BF-A839-4421-8E56-CCBD0B476376}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCryptoStreamII", "TestCryptoStreamII\TestCryptoStreamII.csproj", "{D2D985B4-7BEE-4B88-BDFA-15CA69C12F18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDataContract", "TestDataContract\TestDataContract.csproj", "{F9CD6301-B997-4365-B9F5-166002D8FAA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDataContract_BinarySerialiser", "TestDataContract_BinarySerialiser\TestDataContract_BinarySerialiser.csproj", "{F4D52DC0-A709-41B1-B4EB-DEBE69CA121D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDataContractExtraAttribute", "TestDataContractExtraAttribute\TestDataContractExtraAttribute.csproj", "{84EFDE68-151D-491A-84A1-50BA3C804EED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDataContractII", "TestDataContractII\TestDataContractII.csproj", "{8E4F9D5F-8206-4F48-A598-6E8A1351ADAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDirectoryViewes", "TestDirectoryViewes\TestDirectoryViewes.csproj", "{0E09D0FE-4354-4366-836A-0A9C18F9CE78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFileInfo", "TestFileInfo\TestFileInfo.csproj", "{7DA06649-EFA1-44AB-B166-3A4068D50509}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFileStreams", "TestFileStreams\TestFileStreams.csproj", "{843405E7-3181-498B-BB13-28361408170C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesXMLSerialiser", "TesXMLSerialiser\TesXMLSerialiser.csproj", "{FA705419-BC3C-4473-8CED-AA3CD7C01A85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesXMLSerialiser101", "TesXMLSerialiser101\TesXMLSerialiser101.csproj", "{C5FA29F6-9283-4F70-AE60-49C0BAE15EE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62736680-1988-4015-88CC-11837E80CE33}.Debug|x86.ActiveCfg = Debug|x86
+		{62736680-1988-4015-88CC-11837E80CE33}.Debug|x86.Build.0 = Debug|x86
+		{62736680-1988-4015-88CC-11837E80CE33}.Release|x86.ActiveCfg = Release|x86
+		{62736680-1988-4015-88CC-11837E80CE33}.Release|x86.Build.0 = Release|x86
+		{BCE0C8BF-A839-4421-8E56-CCBD0B476376}.Debug|x86.ActiveCfg = Debug|x86
+		{BCE0C8BF-A839-4421-8E56-CCBD0B476376}.Debug|x86.Build.0 = Debug|x86
+		{BCE0C8BF-A839-4421-8E56-CCBD0B476376}.Release|x86.ActiveCfg = Release|x86
+		{BCE0C8BF-A839-4421-8E56-CCBD0B476376}.Release|x86.Build.0 = Release|x86
+		{D2D985B4-7BEE-4B88-BDFA-15CA69C12F18}.Debug|x86.ActiveCfg = Debug|x86
+		{D2D985B4-7BEE-4B88-BDFA-15CA69C12F18}.Debug|x86.Build.0 = Debug|x86
+		{D2D985B4-7BEE-4B88-BDFA-15CA69C12F18}.Release|x86.ActiveCfg = Release|x86
+		{D2D985B4-7BEE-4B88-BDFA-15CA69C12F18}.Release|x86.Build.0 = Release|x86
+		{F9CD6301-B997-4365-B9F5-166002D8FAA0}.Debug|x86.ActiveCfg = Debug|x86
+		{F9CD6301-B997-4365-B9F5-166002D8FAA0}.Debug|x86.Build.0 = Debug|x86
+		{F9CD6301-B997-4365-B9F5-166002D8FAA0}.Release|x86.ActiveCfg = Release|x86
+		{F9CD6301-B997-4365-B9F5-166002D8FAA0}.Release|x86.Build.0 = Release|x86
+		{F4D52DC0-A709-41B1-B4EB-DEBE69CA121D}.Debug|x86.ActiveCfg = Debug|x86
+		{F4D52DC0-A709-41B1-B4EB-DEBE69CA121D}.Debug|x86.Build.0 = Debug|x86
+		{F4D52DC0-A709-41B1-B4EB-DEBE69CA121D}.Release|x86.ActiveCfg = Release|x86
+		{F4D52DC0-A709-41B1-B4EB-DEBE69CA121D}.Release|x86.Build.0 = Release|x86
+		{84EFDE68-151D-491A-84A1-50BA3C804EED}.Debug|x86.ActiveCfg = Debug|x86
+		{84EFDE68-151D-491A-84A1-50BA3C804EED}.Debug|x86.Build.0 = Debug|x86
+		{84EFDE68-151D-491A-84A1-50BA3C804EED}.Release|x86.ActiveCfg = Release|x86
+		{84EFDE68-151D-491A-84A1-50BA3C804EED}.Release|x86.Build.0 = Release|x86
+		{8E4F9D5F-8206-4F48-A598-6E8A1351ADAF}.Debug|x86.ActiveCfg = Debug|x86
+		{8E4F9D5F-8206-4F48-A598-6E8A1351ADAF}.Debug|x86.Build.0 = Debug|x86
+		{8E4F9D5F-8206-4F48-A598-6E8A1351ADAF}.Release|x86.ActiveCfg = Release|x86
+		{8E4F9D5F-8206-4F48-A598-6E8A1351ADAF}.Release|x86.Build.0 = Release|x86
+		{0E09D0FE-4354-4366-836A-0A9C18F9CE78}.Debug|x86.ActiveCfg = Debug|x86
+		{0E09D0FE-4354-4366-836A-0A9C18F9CE78}.Debug|x86.Build.0 = Debug|x86
+		{0E09D0FE-4354-4366-836A-0A9C18F9CE78}.Release|x86.ActiveCfg = Release|x86
+		{0E09D0FE-4354-4366-836A-0A9C18F9CE78}.Release|x86.Build.0 = Release|x86
+		{7DA06649-EFA1-44AB-B166-3A4068D50509}.Debug|x86.ActiveCfg = Debug|x86
+		{7DA06649-EFA1-44AB-B166-3A4068D50509}.Debug|x86.Build.0 = Debug|x86
+		{7DA06649-EFA1-44AB-B166-3A4068D50509}.Release|x86.ActiveCfg = Release|x86
+		{7DA06649-EFA1-44AB-B166-3A4068D50509}.Release|x86.Build.0 = Release|x86
+		{843405E7-3181-498B-BB13-28361408170C}.Debug|x86.ActiveCfg = Debug|x86
+		{843405E7-3181-498B-BB13-28361408170C}.Debug|x86.Build.0 = Debug|x86
+		{843405E7-3181-498B-BB13-28361408170C}.Release|x86.ActiveCfg = Release|x86
+		{843405E7-3181-498B-BB13-28361408170C}.Release|x86.Build.0 = Release|x86
+		{FA705419-BC3C-4473-8CED-AA3CD7C01A85}.Debug|x86.ActiveCfg = Debug|x86
+		{FA705419-BC3C-4473-8CED-AA3CD7C01A85}.Debug|x86.Build.0 = Debug|x86
+		{FA705419-BC3C-4473-8CED-AA3CD7C01A85}.Release|x86.ActiveCfg = Release|x86
+		{FA705419-BC3C-4473-8CED-AA3CD7C01A85}.Release|x86.Build.0 = Release|x86
+		{C5FA29F6-9283-4F70-AE60-49C0BAE15EE5}.Debug|x86.ActiveCfg = Debug|x86
+		{C5FA29F6-9283-4F70-AE60-49C0BAE15EE5}.Debug|x86.Build.0 = Debug|x86
+		{C5FA29F6-9283-4F70-AE60-49C0BAE15EE5}.Release|x86.ActiveCfg = Release|x86
+		{C5FA29F6-9283-4F70-AE60-49C0BAE15EE5}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

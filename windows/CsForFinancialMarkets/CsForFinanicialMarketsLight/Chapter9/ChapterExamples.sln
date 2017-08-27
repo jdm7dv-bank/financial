@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBinomialOptionPrice", "TestBinomialOptionPrice\TestBinomialOptionPrice.csproj", "{9ABA9D24-BE3F-4D2A-97FA-25A66189BAB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLattice101", "TestLattice101\TestLattice101.csproj", "{6204BA67-B681-466B-8B98-E82F07372246}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLatticeExcel", "TestLatticeExcel\TestLatticeExcel.csproj", "{67416A2B-4F09-4A5D-88F6-AA19C91A3D19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTwoFactorBinomial", "TestTwoFactorBinomial\TestTwoFactorBinomial.csproj", "{6C2E5D4E-F505-4E85-96D7-A213F2D76EC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9ABA9D24-BE3F-4D2A-97FA-25A66189BAB6}.Debug|x86.ActiveCfg = Debug|x86
+		{9ABA9D24-BE3F-4D2A-97FA-25A66189BAB6}.Debug|x86.Build.0 = Debug|x86
+		{9ABA9D24-BE3F-4D2A-97FA-25A66189BAB6}.Release|x86.ActiveCfg = Release|x86
+		{9ABA9D24-BE3F-4D2A-97FA-25A66189BAB6}.Release|x86.Build.0 = Release|x86
+		{6204BA67-B681-466B-8B98-E82F07372246}.Debug|x86.ActiveCfg = Debug|x86
+		{6204BA67-B681-466B-8B98-E82F07372246}.Debug|x86.Build.0 = Debug|x86
+		{6204BA67-B681-466B-8B98-E82F07372246}.Release|x86.ActiveCfg = Release|x86
+		{6204BA67-B681-466B-8B98-E82F07372246}.Release|x86.Build.0 = Release|x86
+		{67416A2B-4F09-4A5D-88F6-AA19C91A3D19}.Debug|x86.ActiveCfg = Debug|x86
+		{67416A2B-4F09-4A5D-88F6-AA19C91A3D19}.Debug|x86.Build.0 = Debug|x86
+		{67416A2B-4F09-4A5D-88F6-AA19C91A3D19}.Release|x86.ActiveCfg = Release|x86
+		{67416A2B-4F09-4A5D-88F6-AA19C91A3D19}.Release|x86.Build.0 = Release|x86
+		{6C2E5D4E-F505-4E85-96D7-A213F2D76EC1}.Debug|x86.ActiveCfg = Debug|x86
+		{6C2E5D4E-F505-4E85-96D7-A213F2D76EC1}.Debug|x86.Build.0 = Debug|x86
+		{6C2E5D4E-F505-4E85-96D7-A213F2D76EC1}.Release|x86.ActiveCfg = Release|x86
+		{6C2E5D4E-F505-4E85-96D7-A213F2D76EC1}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

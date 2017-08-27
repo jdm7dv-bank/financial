@@ -1,0 +1,39 @@
+?3.14
+
+*** Join ***
+
+Customers with orders (inner join): Dave bought Computer, Dave bought Printer, Susan bought Laptop, Susan bought USB stick, 
+
+Customers starting with A sorted by price: Dave bought Printer, Dave bought Computer, 
+
+*** Group Join ***
+
+Left outer join (no customer data)
+Customer?
+- Order: Computer, Price: ?499.00
+- Order: Printer, Price: ?59.00
+Customer?
+- Order: Laptop, Price: ?699.00
+- Order: USB stick, Price: ?19.99
+Customer?
+
+Left outer join (with customer data)
+Customer Dave
+- Order: Computer, Price: ?499.00
+- Order: Printer, Price: ?59.00
+Customer Susan
+- Order: Laptop, Price: ?699.00
+- Order: USB stick, Price: ?19.99
+Customer Daniel
+
+Inner join (with customer data)
+Customer Dave
+- Order: Computer, Price: ?499.00
+- Order: Printer, Price: ?59.00
+Customer Susan
+- Order: Laptop, Price: ?699.00
+- Order: USB stick, Price: ?19.99
+
+Inner join (filtered)
+Customer Susan
+- Order: Laptop, Price: ?699.00

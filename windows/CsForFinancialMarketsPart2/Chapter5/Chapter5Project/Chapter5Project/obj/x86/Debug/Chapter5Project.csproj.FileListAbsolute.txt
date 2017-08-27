@@ -1,0 +1,5 @@
+C:\books\csharpproduction\Chapter5\Chapter5Project\Chapter5Project\bin\Debug\Chapter5Project.exe
+C:\books\csharpproduction\Chapter5\Chapter5Project\Chapter5Project\bin\Debug\Chapter5Project.pdb
+C:\books\csharpproduction\Chapter5\Chapter5Project\Chapter5Project\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\books\csharpproduction\Chapter5\Chapter5Project\Chapter5Project\obj\x86\Debug\Chapter5Project.exe
+C:\books\csharpproduction\Chapter5\Chapter5Project\Chapter5Project\obj\x86\Debug\Chapter5Project.pdb

@@ -1,0 +1,5 @@
+C:\books\csharpproduction\Chapter10\ClassLibraryArrays\ClassLibraryArrays\obj\Debug\ResolveAssemblyReference.cache
+C:\books\csharpproduction\Chapter10\ClassLibraryArrays\ClassLibraryArrays\bin\Debug\ClassLibraryArrays.dll
+C:\books\csharpproduction\Chapter10\ClassLibraryArrays\ClassLibraryArrays\bin\Debug\ClassLibraryArrays.pdb
+C:\books\csharpproduction\Chapter10\ClassLibraryArrays\ClassLibraryArrays\obj\Debug\ClassLibraryArrays.dll
+C:\books\csharpproduction\Chapter10\ClassLibraryArrays\ClassLibraryArrays\obj\Debug\ClassLibraryArrays.pdb

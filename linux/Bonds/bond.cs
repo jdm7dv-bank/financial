@@ -14,6 +14,7 @@ public void PresentValue()
 		new { Time = 1.5 , CashFlow = 5.0 },
 		new { Time = 2.0 , CashFlow = 105.0 }
 	};
+
 	foreach(var item in Bond)
 	{
     		Console.WriteLine(item.ToString());

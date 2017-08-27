@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3136A30F-1A16-4696-9269-6055A635A45A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Chapter25Project</RootNamespace>
+    <AssemblyName>Chapter25Project</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClassLibraryArrays">
+      <HintPath>..\..\..\Chapter10\ClassLibraryArrays\ClassLibraryArrays\bin\Debug\ClassLibraryArrays.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Account.cs">
+      <Link>Account.cs</Link>
+    </Compile>
+    <None Include="..\..\AccountThread.cs">
+      <Link>AccountThread.cs</Link>
+    </None>
+    <None Include="..\..\TestNestedLocking.cs">
+      <Link>TestNestedLocking.cs</Link>
+    </None>
+    <None Include="..\..\TestNestedLock.cs">
+      <Link>TestNestedLock.cs</Link>
+    </None>
+    <None Include="..\..\TestMutex.cs">
+      <Link>TestMutex.cs</Link>
+    </None>
+    <None Include="..\..\TestSemaphore001.cs">
+      <Link>TestSemaphore001.cs</Link>
+    </None>
+    <None Include="..\..\EWH101.cs">
+      <Link>EWH101.cs</Link>
+    </None>
+    <None Include="..\..\EWH102.cs">
+      <Link>EWH102.cs</Link>
+    </None>
+    <None Include="..\..\TestMonitorWaitPulse.cs">
+      <Link>TestMonitorWaitPulse.cs</Link>
+    </None>
+    <None Include="..\..\TestAsynch001.cs">
+      <Link>TestAsynch001.cs</Link>
+    </None>
+    <None Include="..\..\TestSynchronizedCollection.cs">
+      <Link>TestSynchronizedCollection.cs</Link>
+    </None>
+    <None Include="..\..\Timers.cs">
+      <Link>Timers.cs</Link>
+    </None>
+    <None Include="..\..\TimersWrapper.cs">
+      <Link>TimersWrapper.cs</Link>
+    </None>
+    <None Include="..\..\TestBackgroundThread.cs">
+      <Link>TestBackgroundThread.cs</Link>
+    </None>
+    <None Include="..\..\TestBackgroundWorker101.cs">
+      <Link>TestBackgroundWorker101.cs</Link>
+    </None>
+    <Compile Include="..\..\Consumer.cs">
+      <Link>Consumer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Data.cs">
+      <Link>Data.cs</Link>
+    </Compile>
+    <None Include="..\..\TestParallelClass.cs">
+      <Link>TestParallelClass.cs</Link>
+    </None>
+    <None Include="..\..\Task.cs">
+      <Link>Task.cs</Link>
+    </None>
+    <None Include="..\..\ParallelDataStructures.cs">
+      <Link>ParallelDataStructures.cs</Link>
+    </None>
+    <None Include="..\..\ParallelLINQ.cs">
+      <Link>ParallelLINQ.cs</Link>
+    </None>
+    <Compile Include="..\..\Producer.cs">
+      <Link>Producer.cs</Link>
+    </Compile>
+    <None Include="..\..\TestProducerConsumer.cs">
+      <Link>TestProducerConsumer.cs</Link>
+    </None>
+    <None Include="..\..\TestBarrier.cs">
+      <Link>TestBarrier.cs</Link>
+    </None>
+    <None Include="..\..\TestTaskParallelLibrary.cs">
+      <Link>TestTaskParallelLibrary.cs</Link>
+    </None>
+    <Compile Include="..\..\Thread101.cs">
+      <Link>Thread101.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

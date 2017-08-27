@@ -1,0 +1,9 @@
+C:\books\csharpproduction\Chapter10\ADE_Chapter10\ADEChapter10Project\ADEChapter10Project\obj\x86\Release\ResolveAssemblyReference.cache
+C:\books\csharpproduction\Chapter10\ADE_Chapter10\ADEChapter10Project\ADEChapter10Project\bin\Release\ADEChapter10Project.exe
+C:\books\csharpproduction\Chapter10\ADE_Chapter10\ADEChapter10Project\ADEChapter10Project\bin\Release\ADEChapter10Project.pdb
+C:\books\csharpproduction\Chapter10\ADE_Chapter10\ADEChapter10Project\ADEChapter10Project\bin\Release\ClassLibraryArrays.dll
+C:\books\csharpproduction\Chapter10\ADE_Chapter10\ADEChapter10Project\ADEChapter10Project\bin\Release\ClassLibraryExcel.dll
+C:\books\csharpproduction\Chapter10\ADE_Chapter10\ADEChapter10Project\ADEChapter10Project\bin\Release\ClassLibraryArrays.pdb
+C:\books\csharpproduction\Chapter10\ADE_Chapter10\ADEChapter10Project\ADEChapter10Project\bin\Release\ClassLibraryExcel.pdb
+C:\books\csharpproduction\Chapter10\ADE_Chapter10\ADEChapter10Project\ADEChapter10Project\obj\x86\Release\ADEChapter10Project.exe
+C:\books\csharpproduction\Chapter10\ADE_Chapter10\ADEChapter10Project\ADEChapter10Project\obj\x86\Release\ADEChapter10Project.pdb

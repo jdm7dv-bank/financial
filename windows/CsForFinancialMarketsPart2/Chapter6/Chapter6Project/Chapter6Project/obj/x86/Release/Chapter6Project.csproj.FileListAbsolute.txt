@@ -1,0 +1,7 @@
+C:\books\csharpproduction\Chapter6\Chapter6Project\Chapter6Project\bin\Release\Chapter6Project.exe
+C:\books\csharpproduction\Chapter6\Chapter6Project\Chapter6Project\bin\Release\Chapter6Project.pdb
+C:\books\csharpproduction\Chapter6\Chapter6Project\Chapter6Project\bin\Release\ClassLibraryArrays.dll
+C:\books\csharpproduction\Chapter6\Chapter6Project\Chapter6Project\bin\Release\ClassLibraryArrays.pdb
+C:\books\csharpproduction\Chapter6\Chapter6Project\Chapter6Project\obj\x86\Release\ResolveAssemblyReference.cache
+C:\books\csharpproduction\Chapter6\Chapter6Project\Chapter6Project\obj\x86\Release\Chapter6Project.exe
+C:\books\csharpproduction\Chapter6\Chapter6Project\Chapter6Project\obj\x86\Release\Chapter6Project.pdb

@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C69736B6-C6D0-40D0-8037-CDF5DA85854C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestLevMaqCalibration</RootNamespace>
+    <AssemblyName>TestLevMaqCalibration</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="alglibnet2, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\CsForFinancialMarkets\Lib\alglibnet2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\CsForFinancialMarkets\BookExamples\A2\TestLevMaqCalibration\TestLevMaqCalibration.cs">
+      <Link>TestLevMaqCalibration.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\Bond\BaseBond.cs">
+      <Link>src\FinancialToolsLib\Bond\BaseBond.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\Bond\SerializeBond.cs">
+      <Link>src\FinancialToolsLib\Bond\SerializeBond.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\Dates\Date.cs">
+      <Link>src\FinancialToolsLib\Dates\Date.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\Dates\DateSchedule.cs">
+      <Link>src\FinancialToolsLib\Dates\DateSchedule.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\Dates\Schedule.cs">
+      <Link>src\FinancialToolsLib\Dates\Schedule.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\Definitions.cs">
+      <Link>src\FinancialToolsLib\Definitions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\FormulaUtility\FormulaUtility.cs">
+      <Link>src\FinancialToolsLib\FormulaUtility\FormulaUtility.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\FormulaUtility\NumMethod.cs">
+      <Link>src\FinancialToolsLib\FormulaUtility\NumMethod.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\Instruments\StirFuture&amp;Option.cs">
+      <Link>src\FinancialToolsLib\Instruments\StirFuture&amp;Option.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\Instruments\SwapLeg.cs">
+      <Link>src\FinancialToolsLib\Instruments\SwapLeg.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\Instruments\VanillaCap.cs">
+      <Link>src\FinancialToolsLib\Instruments\VanillaCap.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\Instruments\VanillaSwap.cs">
+      <Link>src\FinancialToolsLib\Instruments\VanillaSwap.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\InterestRateCurve\BuildingBlock.cs">
+      <Link>src\FinancialToolsLib\InterestRateCurve\BuildingBlock.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\InterestRateCurve\MultiCurve\MultiCurveBuilder.cs">
+      <Link>src\FinancialToolsLib\InterestRateCurve\MultiCurve\MultiCurveBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\InterestRateCurve\RateCurve.cs">
+      <Link>src\FinancialToolsLib\InterestRateCurve\RateCurve.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\InterestRateCurve\RateSet.cs">
+      <Link>src\FinancialToolsLib\InterestRateCurve\RateSet.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\InterestRateCurve\SingleCurve\InterpAdapter.cs">
+      <Link>src\FinancialToolsLib\InterestRateCurve\SingleCurve\InterpAdapter.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\InterestRateCurve\SingleCurve\SingleCurveBuilder.cs">
+      <Link>src\FinancialToolsLib\InterestRateCurve\SingleCurve\SingleCurveBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\InterestRateVolatility\CapFloorVols.cs">
+      <Link>src\FinancialToolsLib\InterestRateVolatility\CapFloorVols.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\Interpolator\BaseOneDimensionalInterpolator.cs">
+      <Link>src\FinancialToolsLib\Interpolator\BaseOneDimensionalInterpolator.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\Interpolator\LinearInterpolation.cs">
+      <Link>src\FinancialToolsLib\Interpolator\LinearInterpolation.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\Interpolator\SimpleCubicInterpolator.cs">
+      <Link>src\FinancialToolsLib\Interpolator\SimpleCubicInterpolator.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\Interpolator\BiLinearInterpolator.cs">
+      <Link>src\FinancialToolsLib\Interpolator\BiLinearInterpolator.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\Interpolator\LogLinearInterpolator.cs">
+      <Link>src\FinancialToolsLib\Interpolator\LogLinearInterpolator.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\Interpolator\MonotoneConvex.cs">
+      <Link>src\FinancialToolsLib\Interpolator\MonotoneConvex.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\FinancialTools\Interpolator\OneDimensionInterpolationFactory.cs">
+      <Link>src\FinancialToolsLib\Interpolator\OneDimensionInterpolationFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\Array.cs">
+      <Link>src\ClassLibraryArrays\Array.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\AssocArray.cs">
+      <Link>src\ClassLibraryArrays\AssocArray.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\AssocArrayMechanisms.cs">
+      <Link>src\ClassLibraryArrays\AssocArrayMechanisms.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\AssocMatrix.cs">
+      <Link>src\ClassLibraryArrays\AssocMatrix.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\GenericMatrix.cs">
+      <Link>src\ClassLibraryArrays\GenericMatrix.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\GenericMatrixImpl.cs">
+      <Link>src\ClassLibraryArrays\GenericMatrixImpl.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\GenericOperatorFactory.cs">
+      <Link>src\ClassLibraryArrays\GenericOperatorFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\Interfaces.cs">
+      <Link>src\ClassLibraryArrays\Interfaces.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\Lattice.cs">
+      <Link>src\ClassLibraryArrays\Lattice.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\LUSolver.cs">
+      <Link>src\ClassLibraryArrays\LUSolver.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\Matrix.cs">
+      <Link>src\ClassLibraryArrays\Matrix.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\Mesher.cs">
+      <Link>src\ClassLibraryArrays\Mesher.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\NumericMatrix.cs">
+      <Link>src\ClassLibraryArrays\NumericMatrix.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\Range.cs">
+      <Link>src\ClassLibraryArrays\Range.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\Set.cs">
+      <Link>src\ClassLibraryArrays\Set.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\Tensor.cs">
+      <Link>src\ClassLibraryArrays\Tensor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CsForFinancialMarkets\UtilityClassLibrary\Datasim\Vector.cs">
+      <Link>src\ClassLibraryArrays\Vector.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

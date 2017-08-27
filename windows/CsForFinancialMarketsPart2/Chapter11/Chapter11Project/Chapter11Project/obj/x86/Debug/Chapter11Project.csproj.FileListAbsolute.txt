@@ -1,0 +1,5 @@
+C:\books\csharpproduction\Chapter11\Chapter11Project\Chapter11Project\bin\Debug\Chapter11Project.exe
+C:\books\csharpproduction\Chapter11\Chapter11Project\Chapter11Project\bin\Debug\Chapter11Project.pdb
+C:\books\csharpproduction\Chapter11\Chapter11Project\Chapter11Project\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\books\csharpproduction\Chapter11\Chapter11Project\Chapter11Project\obj\x86\Debug\Chapter11Project.exe
+C:\books\csharpproduction\Chapter11\Chapter11Project\Chapter11Project\obj\x86\Debug\Chapter11Project.pdb

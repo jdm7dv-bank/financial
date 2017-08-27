@@ -1,0 +1,7 @@
+C:\books\csharpproduction\Chapter10\TrinomialDirectory\TrinomialProject\TrinomialProject\bin\Debug\TrinomialProject.exe
+C:\books\csharpproduction\Chapter10\TrinomialDirectory\TrinomialProject\TrinomialProject\bin\Debug\TrinomialProject.pdb
+C:\books\csharpproduction\Chapter10\TrinomialDirectory\TrinomialProject\TrinomialProject\bin\Debug\ClassLibraryArrays.dll
+C:\books\csharpproduction\Chapter10\TrinomialDirectory\TrinomialProject\TrinomialProject\bin\Debug\ClassLibraryArrays.pdb
+C:\books\csharpproduction\Chapter10\TrinomialDirectory\TrinomialProject\TrinomialProject\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\books\csharpproduction\Chapter10\TrinomialDirectory\TrinomialProject\TrinomialProject\obj\x86\Debug\TrinomialProject.exe
+C:\books\csharpproduction\Chapter10\TrinomialDirectory\TrinomialProject\TrinomialProject\obj\x86\Debug\TrinomialProject.pdb

@@ -1,0 +1,7 @@
+C:\books\csharpproduction\Chapter10\ClassLibraryExcel\ClassLibraryExcel\bin\Release\ClassLibraryExcel.dll
+C:\books\csharpproduction\Chapter10\ClassLibraryExcel\ClassLibraryExcel\bin\Release\ClassLibraryExcel.pdb
+C:\books\csharpproduction\Chapter10\ClassLibraryExcel\ClassLibraryExcel\bin\Release\ClassLibraryArrays.dll
+C:\books\csharpproduction\Chapter10\ClassLibraryExcel\ClassLibraryExcel\bin\Release\ClassLibraryArrays.pdb
+C:\books\csharpproduction\Chapter10\ClassLibraryExcel\ClassLibraryExcel\obj\Release\ResolveAssemblyReference.cache
+C:\books\csharpproduction\Chapter10\ClassLibraryExcel\ClassLibraryExcel\obj\Release\ClassLibraryExcel.dll
+C:\books\csharpproduction\Chapter10\ClassLibraryExcel\ClassLibraryExcel\obj\Release\ClassLibraryExcel.pdb

@@ -1,0 +1,9 @@
+C:\books\csharpproduction\Chapter10\PAC_FDM\PACFDMProject\PACFDMProject\bin\Release\PACFDMProject.exe
+C:\books\csharpproduction\Chapter10\PAC_FDM\PACFDMProject\PACFDMProject\bin\Release\PACFDMProject.pdb
+C:\books\csharpproduction\Chapter10\PAC_FDM\PACFDMProject\PACFDMProject\bin\Release\ClassLibraryArrays.dll
+C:\books\csharpproduction\Chapter10\PAC_FDM\PACFDMProject\PACFDMProject\bin\Release\ClassLibraryExcel.dll
+C:\books\csharpproduction\Chapter10\PAC_FDM\PACFDMProject\PACFDMProject\bin\Release\ClassLibraryArrays.pdb
+C:\books\csharpproduction\Chapter10\PAC_FDM\PACFDMProject\PACFDMProject\bin\Release\ClassLibraryExcel.pdb
+C:\books\csharpproduction\Chapter10\PAC_FDM\PACFDMProject\PACFDMProject\obj\x86\Release\ResolveAssemblyReference.cache
+C:\books\csharpproduction\Chapter10\PAC_FDM\PACFDMProject\PACFDMProject\obj\x86\Release\PACFDMProject.exe
+C:\books\csharpproduction\Chapter10\PAC_FDM\PACFDMProject\PACFDMProject\obj\x86\Release\PACFDMProject.pdb

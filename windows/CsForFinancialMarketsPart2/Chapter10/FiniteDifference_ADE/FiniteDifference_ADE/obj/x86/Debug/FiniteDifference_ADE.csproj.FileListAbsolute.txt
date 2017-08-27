@@ -1,0 +1,11 @@
+C:\books\csharpproduction\Chapter10\FiniteDifference_ADE\FiniteDifference_ADE\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\books\csharpproduction\Chapter10\FiniteDifference_ADE\FiniteDifference_ADE\bin\Debug\FiniteDifference_ADE.exe
+C:\books\csharpproduction\Chapter10\FiniteDifference_ADE\FiniteDifference_ADE\bin\Debug\FiniteDifference_ADE.pdb
+C:\books\csharpproduction\Chapter10\FiniteDifference_ADE\FiniteDifference_ADE\bin\Debug\ClassLibraryArrays.dll
+C:\books\csharpproduction\Chapter10\FiniteDifference_ADE\FiniteDifference_ADE\bin\Debug\ClassLibraryExcel.dll
+C:\books\csharpproduction\Chapter10\FiniteDifference_ADE\FiniteDifference_ADE\bin\Debug\ClassLibraryFDM.dll
+C:\books\csharpproduction\Chapter10\FiniteDifference_ADE\FiniteDifference_ADE\bin\Debug\ClassLibraryArrays.pdb
+C:\books\csharpproduction\Chapter10\FiniteDifference_ADE\FiniteDifference_ADE\bin\Debug\ClassLibraryExcel.pdb
+C:\books\csharpproduction\Chapter10\FiniteDifference_ADE\FiniteDifference_ADE\bin\Debug\ClassLibraryFDM.pdb
+C:\books\csharpproduction\Chapter10\FiniteDifference_ADE\FiniteDifference_ADE\obj\x86\Debug\FiniteDifference_ADE.exe
+C:\books\csharpproduction\Chapter10\FiniteDifference_ADE\FiniteDifference_ADE\obj\x86\Debug\FiniteDifference_ADE.pdb

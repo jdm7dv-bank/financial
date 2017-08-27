@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation Add-in v1", "Automation Add-in v1\Automation Add-in v1.csproj", "{650AA932-4EAA-4349-BB28-438B35714EEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation Add-in v2", "Automation Add-in v2\Automation Add-in v2.csproj", "{E0E4DCAE-C466-4043-A2A1-FFF109659C65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "COM Add-In", "COM Add-In", "{1AE7B741-0A8C-4573-A007-2A64C85E8400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COM Add-In", "COM Add-in\COMAddIn\COM Add-In.csproj", "{DDAA32C9-062E-4E8E-9CD0-BC0EBA9D7EA6}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "COMAddInSetup", "COM Add-in\COMAddInSetup\COMAddInSetup.vdproj", "{55B3AC17-7F85-4CB9-AEF7-9F9350CA01E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{650AA932-4EAA-4349-BB28-438B35714EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650AA932-4EAA-4349-BB28-438B35714EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{650AA932-4EAA-4349-BB28-438B35714EEE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{650AA932-4EAA-4349-BB28-438B35714EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650AA932-4EAA-4349-BB28-438B35714EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{650AA932-4EAA-4349-BB28-438B35714EEE}.Release|x86.ActiveCfg = Release|Any CPU
+		{E0E4DCAE-C466-4043-A2A1-FFF109659C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0E4DCAE-C466-4043-A2A1-FFF109659C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0E4DCAE-C466-4043-A2A1-FFF109659C65}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E0E4DCAE-C466-4043-A2A1-FFF109659C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E4DCAE-C466-4043-A2A1-FFF109659C65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0E4DCAE-C466-4043-A2A1-FFF109659C65}.Release|x86.ActiveCfg = Release|Any CPU
+		{DDAA32C9-062E-4E8E-9CD0-BC0EBA9D7EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDAA32C9-062E-4E8E-9CD0-BC0EBA9D7EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDAA32C9-062E-4E8E-9CD0-BC0EBA9D7EA6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DDAA32C9-062E-4E8E-9CD0-BC0EBA9D7EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDAA32C9-062E-4E8E-9CD0-BC0EBA9D7EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDAA32C9-062E-4E8E-9CD0-BC0EBA9D7EA6}.Release|x86.ActiveCfg = Release|Any CPU
+		{55B3AC17-7F85-4CB9-AEF7-9F9350CA01E1}.Debug|Any CPU.ActiveCfg = Debug
+		{55B3AC17-7F85-4CB9-AEF7-9F9350CA01E1}.Debug|Any CPU.Build.0 = Debug
+		{55B3AC17-7F85-4CB9-AEF7-9F9350CA01E1}.Debug|x86.ActiveCfg = Debug
+		{55B3AC17-7F85-4CB9-AEF7-9F9350CA01E1}.Debug|x86.Build.0 = Debug
+		{55B3AC17-7F85-4CB9-AEF7-9F9350CA01E1}.Release|Any CPU.ActiveCfg = Release
+		{55B3AC17-7F85-4CB9-AEF7-9F9350CA01E1}.Release|Any CPU.Build.0 = Release
+		{55B3AC17-7F85-4CB9-AEF7-9F9350CA01E1}.Release|x86.ActiveCfg = Release
+		{55B3AC17-7F85-4CB9-AEF7-9F9350CA01E1}.Release|x86.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDAA32C9-062E-4E8E-9CD0-BC0EBA9D7EA6} = {1AE7B741-0A8C-4573-A007-2A64C85E8400}
+		{55B3AC17-7F85-4CB9-AEF7-9F9350CA01E1} = {1AE7B741-0A8C-4573-A007-2A64C85E8400}
+	EndGlobalSection
+EndGlobal
